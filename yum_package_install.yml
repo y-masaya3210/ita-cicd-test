@@ -1,0 +1,6 @@
+- name: install the latest version of packages
+  yum:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - "{{ VAR_packages }}"
