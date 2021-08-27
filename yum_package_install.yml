@@ -4,5 +4,3 @@
     state: latest
   with_items:
     - "{{ VAR_packages }}"
-
-test
