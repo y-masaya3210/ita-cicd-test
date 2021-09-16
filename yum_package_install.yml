@@ -3,5 +3,5 @@
     name: "{{ item }}"
     state: latest
   with_items:
-    - "{{ VAR_packages }}"
+    -"{{ VAR_packages }}"
 
